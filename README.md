@@ -28,3 +28,5 @@ instructions
 ````
 9. repeat steps 5-8 for `base.xml`
 10. use your keboard to type pāli āṇḍ śāṇśkṛīṭ ḍīācṛīṭīcś ūśīṇg ṭḥe śḥīfṭ key. 
+
+you can use the `us` keybaord to overwrite your existing us keybaord and type diacritics with the `alt` key 
