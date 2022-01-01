@@ -1,0 +1,85 @@
+// a quick hack to get romanised pāli and sanskrit input in ubuntu
+//
+// 1. move this file to /usr/share/X11/xkb/symbols
+// 2. open system settings> text entry 
+// 3. click + to add a langauge
+// 4. select afghani, it should be top of the list (yes, you read that right)
+// 5. ṇow yoū cāṅ ṭype pāḷī āṇḍ śāṇśkṛīṭ ḍīācṛīṭīcś 
+//
+// use the alt-gr to get the diacritics, alt-gr-shift for capitals
+// qQ wW eEṝṜ rRṛṚ tTṭṬ yYñÑ uUūŪ iIīĪ oO pP [} ]{ \|
+// aAāĀ sSṣṢ dDḍḌ fF gG hHḥḤ jJ kK lLḷḶ ;:ḹḸ '"
+// zZṣṢ xX cC vV√ bBṅṄ nNṇṆ mMṃṂ ,<ŋŊ .> /?
+//
+// super+space is the default shortcut to swap between keyboard layouts
+// 
+// email bodhirasa at gmail dot com if you think it can be improved 
+//
+// attadīpā viharatha attasaraṇā anaññasaraṇā
+// dhammadīpā dhammasaraṇā anaññasaraṇā
+
+
+
+
+default  partial alphanumeric_keys modifier_keys
+xkb_symbols "basic" {
+
+   name[Group1]= "English (US)";
+
+   key <TLDE> {	[ grave,	asciitilde	] };
+   key <AE01> {	[ 1,		exclam 		] };
+   key <AE02> {	[ 2,		at		] };
+   key <AE03> {	[ 3,		numbersign	] };
+   key <AE04> {	[ 4,		dollar		] };
+   key <AE05> {	[ 5,		percent		] };
+   key <AE06> {	[ 6,		asciicircum	] };
+   key <AE07> {	[ 7,		ampersand	] };
+   key <AE08> {	[ 8,		asterisk	] };
+   key <AE09> {	[ 9,		parenleft	] };
+   key <AE10> {	[ 0,		parenright	] };
+   key <AE11> {	[ minus,	underscore	] };
+   key <AE12> {	[ equal,	plus		] };
+
+
+   key <AD01> { [ q,		Q			] };
+   key <AD02> { [ w,		W			] };
+   key <AD03> { [ e,		E,	U1E5D,	U1E5C	] };
+   key <AD04> { [ r,		R,	U1E5B,	U1E5A	] };
+   key <AD05> { [ t,		T,	U1E6D,	U1E6C	] };
+   key <AD06> { [ y,		Y,	U00F1,	U00D1	] };
+   key <AD07> { [ u,		U, 	U016B,	U016A	] };
+   key <AD08> { [ i,		I, 	U012B,	U012A	] };
+   key <AD09> { [ o,		O			] };
+   key <AD10> { [ p, 		P			] };
+   key <AD11> { [bracketleft, 	braceleft		] };
+   key <AD12> { [bracketright, 	braceright 		] };
+   
+   key <BKSL> { [ backslash, bar 			] };
+
+   key <AC01> { [ a,		A,	U0101,	U0100	] };
+   key <AC02> { [ s,		S, 	U015B,	U00A7	] };
+   key <AC03> { [ d,		D, 	U1E0D, 	U1E0C	] };
+   key <AC04> { [ f, 		F			] };
+   key <AC05> { [ g,		G			] };
+   key <AC06> { [ h,		H,	U1E25,	U1E24	] };
+   key <AC07> { [ j,		J			] };
+   key <AC08> { [ k, 		K			] };
+   key <AC09> { [ l,		L, 	U1E37,	U1E36	] };
+   key <AC10> { [ semicolon, 	colon,	U1E39,	U1E38	] };
+   key <AC11> { [ apostrophe,	quotedbl 		] };
+
+   key <AB01> { [ z,		Z,	U1E63, 	U1E62	] };
+   key <AB02> { [ x,		X			] };
+   key <AB03> { [ c,		C			] };
+   key <AB04> { [ v, 		V,	U221A,	U221A	] };
+   key <AB05> { [ b,		B,	U1E45,	U1E44	] };
+   key <AB06> { [ n, 		N,	U1E47, 	U1E46	] };
+   key <AB07> { [ m, 		M, 	U1E43, 	U1E42	] };
+   key <AB08> { [ comma,	less, 	U014B,  U014A	] };
+   key <AB09> { [ period,	greater			] };
+   key <AB10> { [ slash,	question	 	] };
+
+   include "level3(ralt_switch)"
+
+};
+
