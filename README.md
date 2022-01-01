@@ -3,12 +3,12 @@
 a linux keyboard for typing pāli and sanskrit diactrics using the shift key ā ī ū ē ō ñ ṭ ḍ ṇ ḷ ḥ ś ṣ ṛ ṝ ṃ ŋ ṁ √
 
 instructions
-1. open a terminal and copy the file "pi" into into `/usr/share/X11/xkb/symbols` for example
+1. open a terminal and copy the file `pi` into into `/usr/share/X11/xkb/symbols` for example\
 `sudo cp /home/*your user name*/pi /usr/share/X11/xkb/symbols/`
 2. open system settings> keyboard > layouts 
 3. click + to add a langauge
 4. type pali and add it
-5. navigate to /usr/share/X11/xkb/rules
+5. navigate to `/usr/share/X11/xkb/rules`
 6. open a terminal and type
   `sudo gedit evdev.xml`
 7. search for `<layoutList>`
