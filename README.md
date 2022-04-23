@@ -1,18 +1,11 @@
-# pali sanksrit keyboard for linux
+# Pali sanksrit keyboard for linux
 
-a linux keyboard for typing pāli and sanskrit diactrics using the shift key ā ī ū ē ō ñ ṭ ḍ ṇ ḷ ḥ ś ṣ ṛ ṝ ṃ ŋ ṁ √
+A linux keyboard for typing pāli and sanskrit diactrics ( i.e ā ī ū ē ō ñ ṭ ḍ ṇ ḷ ḥ ś ṣ ṛ ṝ ṃ ŋ ṁ √ ) .
 
-instructions
-1. open a terminal and copy the file `pi` into into `/usr/share/X11/xkb/symbols` for example\
-`sudo cp /home/*your user name*/pi /usr/share/X11/xkb/symbols/`
-2. open system settings> keyboard > layouts 
-3. click + to add a langauge
-4. type pali and add it
-5. navigate to `/usr/share/X11/xkb/rules`
-6. open a terminal and type
-  `sudo gedit evdev.xml`
-7. search for `<layoutList>`
-8. add the following lines of code beneath that
+## Instructions
+1. Copy the file `pi` into `/usr/share/X11/xkb/symbols` .
+2. Navigate to `/usr/share/X11/xkb/rules` .
+3. Add the following lines of code above `</layoutList>` in `evdev.xml` and `base.xml` .
 ````
 <layout>
       <configItem>
@@ -26,7 +19,10 @@ instructions
       <variantList/>
 </layout>
 ````
-9. repeat steps 5-8 for `base.xml`
-10. use your keboard to type pāli āṇḍ śāṇśkṛīṭ ḍīācṛīṭīcś ūśīṇg ṭḥe śḥīfṭ key. 
+4. Reboot .
+5. Open system settings > keyboard > layouts . 
+3. Click '+' to add a langauge .
+4. Search `Pali` and add it .
+11. Type pāli āṇḍ śāṇśkṛīṭ diactrics with shift key . 
 
-you can use the `us` keybaord to overwrite your existing us keybaord and type diacritics with the `alt` key 
+#### You can use the `us` keybaord to overwrite your existing us keybaord in `/usr/share/X11/xkb/symbols` , and type diacritics with the `right alt` key . 
