@@ -1,6 +1,6 @@
-# pali sanksrit keyboard for linux
+# Pali sanksrit keyboard for linux
 
-A linux keyboard for typing pāli and sanskrit diactrics (i.e ā ī ū ē ō ñ ṭ ḍ ṇ ḷ ḥ ś ṣ ṛ ṝ ṃ ŋ ṁ √) .
+A linux keyboard for typing pāli and sanskrit diactrics ( i.e ā ī ū ē ō ñ ṭ ḍ ṇ ḷ ḥ ś ṣ ṛ ṝ ṃ ŋ ṁ √ ) .
 
 ## Instructions
 1. Copy the file `pi` into `/usr/share/X11/xkb/symbols` .
@@ -25,4 +25,4 @@ A linux keyboard for typing pāli and sanskrit diactrics (i.e ā ī ū ē ō ñ 
 4. Search `Pali` and add it .
 11. Type pāli āṇḍ śāṇśkṛīṭ diactrics with shift key . 
 
-## You can use the `us` keybaord to overwrite your existing us keybaord in `/usr/share/X11/xkb/symbols` , and type diacritics with the `right alt` key . 
+#### You can use the `us` keybaord to overwrite your existing us keybaord in `/usr/share/X11/xkb/symbols` , and type diacritics with the `right alt` key . 
