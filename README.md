@@ -1,6 +1,6 @@
 ## Description
 - A linux keyboard for typing pāli and sanskrit diactrics ( i.e ā ī ū ē ō ñ ṭ ḍ ṇ ḷ ḥ ś ṣ ṛ ṝ ṃ ŋ ṁ √ ) .
-- Type diactrics with left alt key as modifier (ṅ = lefht alt + b, ñ = left alt + y, ŋ = left alt + <) . 
+- Type diactrics with left alt key as modifier (ṅ = left alt + b, ñ = left alt + y, ŋ = left alt + <) . 
 
 ## Install on X11 (will be overwritten if you upgrade system)
   - Install as a alternative layout of us ( easiest ).
