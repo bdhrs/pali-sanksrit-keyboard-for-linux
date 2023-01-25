@@ -33,11 +33,11 @@
   1. `mkdir -p ~/.xkb/symbols`
   2. `mv us-pali ~/.xkb/symbols` .
   3. add relevant snippet in the sway config file .
-  `
+  ```
   input type:keyboard {
     xkb_layout us-pali
   }
-  `
+  ```
   4. reboot .
 
 ## Config
